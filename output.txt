@@ -1,0 +1,101 @@
+Current time is 2020-06-24 01:08:47.304609
+
+This is a simple program to help you verify the output!
+
+You will be shown the Agents and Issues first!
+Press Enter to Continue!----------------------------------------------------------------------------------------------
+Akash | Avalibility: True | Available Since: 2020-06-23 23:38:47.302758 | Roles: ['Management', 'Support', 'Software'] |
+
+Shreyas | Avalibility: True | Available Since: 2020-06-23 23:08:47.302758 | Roles: ['Sales', 'Support'] |
+
+Abhishek | Avalibility: False | Available Since: None | Roles: ['Software'] |
+
+Pooja | Avalibility: True | Available Since: 2020-06-23 22:38:47.302758 | Roles: ['Software'] |
+
+Nikhil | Avalibility: False | Available Since: None | Roles: ['Support'] |
+
+Onkar | Avalibility: True | Available Since: 2020-06-23 23:08:47.302758 | Roles: ['Hardware'] |
+
+Priya | Avalibility: False | Available Since: None | Roles: ['Sales', 'Software', 'Support'] |
+
+Aishwarya | Avalibility: False | Available Since: None | Roles: ['Software', 'Hardware'] |
+
+Malvika | Avalibility: True | Available Since: 2020-06-23 22:08:47.302758 | Roles: ['Software', 'Hardware'] |
+
+Kunal | Avalibility: True | Available Since: 2020-06-24 00:08:47.302758 | Roles: ['Sales'] |
+
+----------------------------------------------------------------------------------------------
+Following is the queue of issues
+----------------------------------------------------------------------------------------------
+IssueNo. IssueRoles
+1 	 ['Management', 'Support', 'Software']
+2 	 ['Sales', 'Software', 'Support']
+3 	 ['Hardware']
+4 	 ['Software', 'Management']
+5 	 ['Sales', 'Support']
+6 	 ['Software']
+7 	 ['Sales']
+8 	 ['Support']
+9 	 ['Hardware', 'Sales', 'Software']
+10 	 ['Software', 'Hardware']
+11 	 ['Management']
+----------------------------------------------------------------------------------------------
+Press Enter to Continue!
+
+Only the available agents can be allocated with issues, Hence the available agents are.....
+----------------------------------------------------------------------------------------------
+Following is the test list of available agents and their attributes
+----------------------------------------------------------------------------------------------
+Akash | Avalibility: True | Available Since: 2020-06-23 23:38:47.302758 | Roles: ['Management', 'Support', 'Software'] |
+
+Shreyas | Avalibility: True | Available Since: 2020-06-23 23:08:47.302758 | Roles: ['Sales', 'Support'] |
+
+Pooja | Avalibility: True | Available Since: 2020-06-23 22:38:47.302758 | Roles: ['Software'] |
+
+Onkar | Avalibility: True | Available Since: 2020-06-23 23:08:47.302758 | Roles: ['Hardware'] |
+
+Malvika | Avalibility: True | Available Since: 2020-06-23 22:08:47.302758 | Roles: ['Software', 'Hardware'] |
+
+Kunal | Avalibility: True | Available Since: 2020-06-24 00:08:47.302758 | Roles: ['Sales'] |
+
+----------------------------------------------------------------------------------------------
+Press Enter to Continue!
+Now a list of all agents assigned to the issues in the mode ALL AVAILABLE will be shown!
+
+1: Akash 
+2: 
+3: Onkar Malvika 
+4: Akash 
+5: Shreyas 
+6: Akash Pooja Malvika 
+7: Shreyas Kunal 
+8: Akash Shreyas 
+9: 
+10: Malvika 
+11: Akash 
+Press Enter to Continue!
+Now a list of all agents assigned to the issues in the mode LEAST BUSY will be shown!
+1 :  Akash
+3 :  Malvika
+4 :  Akash
+5 :  Shreyas
+6 :  Malvika
+7 :  Shreyas
+8 :  Shreyas
+10 :  Malvika
+11 :  Akash
+Press Enter to Continue!
+Now a list of all agents assigned to the issues in the mode RANDOM will be shown!
+1 :  Akash
+3 :  Malvika
+4 :  Akash
+5 :  Shreyas
+6 :  Pooja
+7 :  Shreyas
+8 :  Akash
+10 :  Malvika
+11 :  Akash
+Press Enter to Continue!
+Hope you like the output! The output is also saved in a text file for convenience
+
+Code is carefully arranged and commented for readablity. I hope you give me an opportunity to work with you!
